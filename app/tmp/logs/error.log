@@ -1,0 +1,9 @@
+2015-06-19 07:27:58 Error: [MissingControllerException] Controller class Test.localhostController could not be found.
+Exception Attributes: array (
+  'class' => 'Test.localhostController',
+  'plugin' => NULL,
+)
+Request URL: /test.localhost
+Stack Trace:
+#0 /var/www/application/current/app/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
